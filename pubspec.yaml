@@ -34,3 +34,10 @@ flutter:
 
   assets:
     - .env
+
+  fonts:
+    # Wordmark da marca. Peso unico e ja inclinada de fabrica: nunca pedir
+    # bold ou italic, senao o Flutter sintetiza e deforma o desenho.
+    - family: Yellowtail
+      fonts:
+        - asset: assets/fonts/Yellowtail-Regular.ttf
